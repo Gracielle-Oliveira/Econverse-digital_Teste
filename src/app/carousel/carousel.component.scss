@@ -1,5 +1,8 @@
+// Figura azul e seus itens//
 .container-one{
-    margin-top: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
 }
 
 .arrow_l{
@@ -14,12 +17,110 @@
     margin-left: 95%;
 }
 
-ul{
+.text-fig{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     position: absolute;
-    margin-top: -200%;
-    margin-left: 5%;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    height: 242px;
+    padding-left: 132px;
+}
+
+.text-fig span{ 
+    color: white;
+    font-size: 16px;
+    font-family: 'Lato';
+    margin-bottom: 15px;
+    font-weight: 300;
+    letter-spacing: 5px; 
+}
+
+.text-fig strong{
+    font-size: 46px;
+    font-family: 'Lato';
     color: white;
 }
+
+.text-fig h2{
+    color: white;
+    font-size: 46px;
+    font-family: 'Lato';
+    font-weight: 300;
+    margin-top: 4px;
+    padding-right: 23px;
+}
+
+.btn-fig {
+    border: 1px solid white;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    cursor: pointer;
+}
+
+.btn-fig :hover{
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+.btn-fig a{
+    color: white;
+    font-family: 'Lato';
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 13px;
+    letter-spacing: 1px;
+    margin: 10px 5px 10px 5px;
+    display: flex;
+}
+
+
+.btn-five{
+    position: absolute;
+    margin: auto;
+    bottom: 0;
+    height: 52px;
+    right: 0;
+    left: 0;
+}
+
+
+ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+#click{
+    width: 12px;
+    height: 12px;
+    border-radius: 50px;
+    background: none;
+    outline: 0;
+    cursor: pointer;
+    border: solid;
+    border-width: 1px;
+    border-color: white;
+    margin-right: 10px;
+}
+
+.click_white{
+    width: 12px;
+    height: 12px;
+    border-radius: 50px;
+    background: white;
+    outline: 0;
+    cursor: pointer;
+    border: solid;
+    border-width: 1px;
+    border-color: white;
+    margin-right: 10px;
+}
+
+// Figuras redondas dos instrumentos, segunda parte do main no layout //
 
 .products {
     max-width: 1002px;
@@ -47,8 +148,119 @@ ul{
     font-family: "Lato";
 }
 
+// Duas figuras com escritas, terceira parte do main //
+
 .container-three{
     display: flex;
-    flex-direction: row;
+    padding-top: 30px;
+    position: relative;
+    
 }
 
+.container-audio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    top: 10px;
+    margin: auto;
+    height: 242px;
+    padding-left: 100px;
+}
+
+.audio h6 {
+    color: white;
+    font-size: 16px;
+    font-family: 'Lato';
+    font-weight: 300;
+    letter-spacing: 5px;
+    text-decoration: none;
+    margin: 50px 5px 10px 5px;
+    display: flex;
+}
+
+.audio hr{
+    width: 10px;
+    margin-top: 1%;
+    margin-bottom:10px;
+}
+
+.audio strong{
+    color: white;
+    font-size: 50px;
+    font-family: 'Lato';
+    letter-spacing: 5px;
+    text-decoration: none;
+    margin: 0px 5px 0px 5px;
+    display: flex;
+}
+
+.audio h1{
+    color: white;
+    font-size: 50px;
+    font-family: 'Lato';
+    font-weight: 700px;
+    letter-spacing: 5px;
+    text-decoration: none;
+    margin: 10px 5px 0px 5px;
+}
+
+.audio a{
+    border: 1px solid white;
+    margin: 10px 5px 0px 5px;
+}
+
+.container-instrument{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    top: 10px;
+    margin: auto;
+    height: 242px;
+    padding-left: 100px;
+}
+
+.instrument h6 {
+    color: white;
+    font-size: 16px;
+    font-family: 'Lato';
+    font-weight: 300;
+    letter-spacing: 5px;
+    text-decoration: none;
+    margin: 50px 5px 10px 5px;
+    display: flex;
+}
+
+.instrument hr{
+    width: 10px;
+    margin-top: 1%;
+    margin-bottom:10px;
+}
+
+.instrument strong{
+    color: white;
+    font-size: 50px;
+    font-family: 'Lato';
+    letter-spacing: 5px;
+    text-decoration: none;
+    margin: 0px 5px 0px 5px;
+    display: flex;
+}
+
+.instrument h1{
+    color: white;
+    font-size: 50px;
+    font-family: 'Lato';
+    font-weight: 700px;
+    letter-spacing: 5px;
+    text-decoration: none;
+    margin: 10px 5px 0px 5px;
+}
+
+.instrument a{
+    border: 1px solid white;
+    margin: 10px 5px 0px 5px;
+}
