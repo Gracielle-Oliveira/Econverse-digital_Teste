@@ -1,46 +1,68 @@
 <section class="first-top">
-  <div>
+  <div class="box">
     <img src="assets/img/lock-1.png" alt="cadeado"/>
-    <span>COMPRA 100% SEGURA  |</span>
-  </div>
-  <div>
-    <img src="assets/img/arrow.png" alt='setas'/>
-      <span>1ª TROCA GRÁTIS</span>
-  </div>
-  <div>
-    <img src="assets/img/001-percentage.png" alt='porcentagem'/>
-    <span>5X SEM JUROS</span>
-  </div>
-  <div>
-    <img src="assets/img/002-delivery-truck.png" alt='setas'/>
-    <span>ENTREGAS EM TODO O BRASIL</span>
+      <span>COMPRA 100% SEGURA  </span>
+    <hr>
+      <img src="assets/img/arrow.png" alt='setas'/>
+        <span>1ª TROCA GRÁTIS</span>
+    <hr>
+      <img src="assets/img/001-percentage.png" alt='porcentagem'/>
+      <span>5X SEM JUROS</span>
+    <hr>
+      <img src="assets/img/002-delivery-truck.png" alt='setas'/>
+      <span>ENTREGAS EM TODO O BRASIL</span>
   </div>
 </section>
+
 <section class="second-top">
-  <div>
-    <img src="assets/img/logo.png" alt="logo" />
+  <div class="box-one">
+    <div>
+      <img src="assets/img/logo.png" alt="logo" />
+    </div>
+    <div class="search">
+      <img class="forget" src="assets/img/ativo-9.png" alt="lupa" />
+      <input type='text' className="input-search" placeholder="BUSQUE AQUI...">
+    </div>
+    <div class="contact">
+      <img class="img-whats" src="assets/img/whatsapp.svg" alt="whatsapp" />
+      <span>(11) 99999-9999</span>
+    </div>
+    <div class="user-area">
+      <img src="assets/img/avatar.png" alt="usuario" />
+      <span>OLÁ, VISITANTE </span>
+      <img src="assets/img/poligono.png" alt="poligono" />
+    </div>
   </div>
-  <div>
-    <img src="assets/img/ativo-9.png" alt="lupa" />
-    
+  <div class="cart">
+    <div class="box-cart">
+      <img class="img-bag" src="assets/img/bag.png" alt="mala" />
+      <div class="cart-w">
+        <span>SEU CARRINHO</span>
+        <span> 0 item (s) </span> 
+      </div>
+    </div>
   </div>
-  <div>
-    <img src="assets/img/whatsapp.svg" alt="whatsapp" />
-    <span>(11) 99999-9999</span>
+</section>
+
+<section class="three-top">
+  <span>TODAS AS CATEGORIAS</span>
+  <div class="som">
+    <span>SOM PROFISSIONAL</span> 
+    <img src="assets/img/poligono.png" alt="poligono" />
   </div>
-  <div>
-    <img src="assets/img/avatar.png" alt="usuario" />
-    <span>OLÁ, VISITANTE </span>
+  <div class="instrument">
+    <span>INSTRUMENTOS MUSICAIS</span>
     <img src="assets/img/poligono.png" alt="poligono" />
   </div>
   <div>
-    <img src="assets/img/bag.png" alt="mala" />
-    <span>SEU CARRINHO</span>
-    <span> 0 item (s) </span>
-    
+    <span>PROMOÇÕES</span>
   </div>
-
+  <div>
+    <span>CONTATO</span>
+  </div>
+  
 </section>
 
 
+<app-carousel></app-carousel>
 <router-outlet></router-outlet>

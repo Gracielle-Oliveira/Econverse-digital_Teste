@@ -1,7 +1,121 @@
 .first-top{
     background-color: #041E50;
     padding: 6px 0px 6px 0px;
+    margin-left: 8px;
+    margin-right: 8px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.box{
+    max-width: 1002px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.second-top{
+    padding: 17px 0px 16px 0px;
     display: flex;
     justify-content: space-between;
 }
+
+.box-one{
+    max-width: 1002px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    position: relative;
+    box-sizing: border-box;
+    padding-right: 121px;
+}
+
+//Area do carrinho//
+.cart {
+    background: #041E50;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    width: 76px;
+    height: 98px;
+    margin-top: -1.5%;
+    margin-right: 60px;
+}
+
+
+.box-cart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 17px;
+    cursor: pointer;
+}
+
+
+// Linha branca //
+.three-top {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1002px;
+    margin-left: 80px;
+}
+
+
+.three-top span:hover{
+    display: flex;
+    background-color: #041E50;
+    }
+
+
+
+hr {
+    padding-top: 14px;
+    border-color: #c4c4c447;
+}
+
+//Area de busca//
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.forget{
+    position: absolute;
+    margin-right: 17px;
+}
+
+.search input{
+    color:#041e505e;
+    font-family: 'Lato';
+    outline: 0;
+    font-size: 9px;
+    border-radius: 5px;
+    border-color: #0f10115e;
+    border-width: 1px;
+    width: 303px;
+    height: 34px;
+    padding-left: 25px;
+}
+
+//Area de contato//  
+.img-whats {
+    width: 21px;
+    margin-right: 10px;
+  }
+
+.promotion{
+    height: -100%;
+    color:#041E50;
+}
+
+
 
