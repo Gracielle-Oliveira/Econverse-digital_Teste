@@ -5,13 +5,127 @@
     display: flex;
 }
 
-.box-news {
+.box-footer{
+    max-width: 1002px;
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-between
+}
+
+// area branca//
+
+.footer-news {
        display: flex;
        flex-direction: column;
        background-color: white;
        border-radius: 5px;
        align-items: center;
        justify-content: center;
-       width: 276px;
-       height: 249px;
+       margin-top: 80px;
+       margin-left: 200px;
+       width: 460px;
+       height: 250px;
 }
+
+.box-news{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.one{
+    font-family: 'Lato';
+    font-weight: 300;
+    color: #041E50;
+    margin-bottom: 8px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.two{
+    font-family: 'Lato';
+    font-size: 13px;
+    color:#041E50;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+.input-name {
+    border: none;
+    outline: 0;
+    font-family: 'Lato';
+    font-weight: 400;
+    padding-left: 22px;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.input-email {
+    border: none;
+    outline: 0;
+    font-family: 'Lato';
+    font-weight: 400;
+    padding-left: 22px;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.input::placeholder{
+    color: #041E50;
+}
+
+#box-input {
+        width: 247px;
+}
+
+//
+
+.box-form-of-payment img {
+    margin-right: 10px;
+}
+
+#first-footer{
+    display: flex;
+    flex-direction: column;
+}
+
+.icons-redes{
+    margin-top: 25px;
+}
+
+.icons-redes img{
+    margin-right: 17px;
+    cursor: pointer;
+}
+
+
+
+//linha final//
+
+.footer-with {
+
+    .box-with {
+        max-width: 1002px;
+        display: flex;
+        width: 100%;
+        margin: 0 auto;
+        justify-content: space-between;
+        font-family: 'Lato';
+        font-size: 12px;
+        align-items: center;
+    }
+
+        .p-box-with {
+            width: 60%;
+        }
+
+        .img-box-with {
+            margin-right: 74px;
+        }
+
+        .img-econverse {
+            margin: 5px 36px 0px 0px;
+         }
+      }
+    
