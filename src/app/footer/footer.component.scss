@@ -1,0 +1,17 @@
+.footer{
+    background-color: #041E50;
+    height: 390px;
+    align-items: center;
+    display: flex;
+}
+
+.box-news {
+       display: flex;
+       flex-direction: column;
+       background-color: white;
+       border-radius: 5px;
+       align-items: center;
+       justify-content: center;
+       width: 276px;
+       height: 249px;
+}
