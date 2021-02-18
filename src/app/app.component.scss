@@ -1,7 +1,7 @@
 .first-top{
     background-color: #041E50;
     padding: 6px 0px 6px 0px;
-    margin-left: 8px;
+    margin-left: 5px;
     margin-right: 8px;
     width: 100%;
     margin: 0 auto;
@@ -16,6 +16,17 @@
     justify-content: space-between;
     width: 100%;
     margin: 0 auto;
+}
+
+.line-one{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.box img{
+    margin-right: 13px;
 }
 
 .second-top{

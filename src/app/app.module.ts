@@ -9,6 +9,7 @@ import { ShowcaseComponent } from './showcase/showcase.component';
 import { AboutComponent } from './about/about.component';
 import { FooterComponent } from './footer/footer.component';
 import { ModalComponent } from './modal/modal.component';
+import { MarcasComponent } from './marcas/marcas.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { ModalComponent } from './modal/modal.component';
     ShowcaseComponent,
     AboutComponent,
     FooterComponent,
-    ModalComponent
+    ModalComponent,
+    MarcasComponent
   ],
   imports: [
     BrowserModule,

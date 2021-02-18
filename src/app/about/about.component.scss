@@ -1,109 +1,103 @@
-//Area do texto sobre nós//
+.about-container {
+	margin-top: 56px;
 
-.about-container{
-    margin-top: 56px;
-}
-
-.about{
-    max-width: 1002px;
+.about {
+	max-width: 1002px;
 	display: flex;
 	align-items: center;
 	flex-direction: column;
 	width: 100%;
 	margin: 0 auto;
-}
 
-.about h5{
-    color:#041E50;
-	font-family: 'Lato';
-	font-size: 25px;
-	margin-bottom: 10px;
-}
+	h5{
+			color:#041E50;
+			font-family: 'Lato';
+			font-size: 25px;
+			margin-bottom: 10px;
+	}
 
-.about p {
-    color:#041E50;
-    font-family: 'Lato';
-    font-size: 14px;
-    text-align: center;
-}
+	.p-about {
+			color:#041E50;
+			font-family: 'Lato';
+			font-size: 14px;
+			text-align: center; 
+	}
 
-//Area das informações do Felipe//
+	.box {
+			background-color: #f6f6f6;
+			margin-top: 50px;
+			height: 185px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			border-radius: 5px;
+			box-shadow: 2px 2px 9px -2px #0000007a;
+			transform: translateY(36px);
 
-.box{
-    background-color: #f6f6f6;
-	margin-top: 50px;
-	height: 185px;
-	display: flex;
-    flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	border-radius: 5px;
-	box-shadow: 2px 2px 9px -2px #0000007a;
-	transform: translateY(36px);
-}
+			.span-about {
+					color:#041E50;
+					font-family: 'Lato';
+					font-size: 13px;
+					font-weight: 600;
+			}
 
-.arrow_left{
-    position: absolute;
-    margin-top: 5%;
-    margin-left: -46%;
+			.resume {
+					display: flex;
+					width: 75%;
+					align-items: center;
+			}
 
-    cursor: pointer;
-}
+			.arrow_left {
+					cursor: pointer;
+			}
 
-.arrow_right{
-    position: absolute;
-    margin-top: 5%;
-    margin-left: 46%;
+			.arrow_right {
+					cursor: pointer;
+			}
 
-    cursor: pointer;
-}
+			.box-second {
+					display: flex;
+					align-items: center;
+					justify-content: space-around;
 
-.container-man{
-    display: flex;
-	width: 75%;
-	align-items: center;
-}
+					.arrow-white {
+							width: 0; 
+							height: 0; 
+							border-top: 10px solid transparent;
+							border-bottom: 10px solid transparent; 
+							border-right:10px solid white; 
+							filter: drop-shadow(2px 2px 17px #B8AFC8);
+					}
+					
+			}
 
-.text-man span {
-    color:#041E50;
-	font-family: 'Lato';
-	font-size: 13px;
-	font-weight: 600;
-}
+			.text-man {
+					margin: 0px 10px 0px 10px;
+					width: 20%;
+					color:#041E50;
+			}
 
+			.text-about {
+					color:#041E50;
+					font-family: 'Lato';
+					font-size: 10px;
+					
+			}
 
-.text-man{
-    margin: 0px 10px 0px 10px;
-	width: 20%;
-}
+			.p-text-about {
+					color:#041E50;
+					font-family: 'Lato';
+					font-size: 13px;
+			}
 
-.text-man p{
-    color:#041E50;
-	font-family: 'Lato';
-	font-size: 10px;
-    margin-right: 150%;
-}
-
-//Area de balão com texto//
-
-.box-white{
-    background-color: white;
-	padding: 10px;
-	border-radius: 5px;
-	box-shadow: 0px 2px 7px 0px rgba(184,175,184,1)
-}
-
-.arrow-white{
-    width: 0; 
-	height: 0; 
-	border-top: 10px solid transparent;
-	border-bottom: 10px solid transparent; 
-	border-right:10px solid white; 
-	filter: drop-shadow(2px 2px 17px #B8AFC8);
-}
-
-.box-white p {
-    color:#041E50;
-	font-family: 'Lato';
-	font-size: 13px;
+			.box-white {
+					background-color: white;
+					padding: 10px;
+					border-radius: 5px;
+					box-shadow: 0px 2px 7px 0px rgba(184,175,184,1);
+					color: #041E50;
+			}
+		}
+	}
 }

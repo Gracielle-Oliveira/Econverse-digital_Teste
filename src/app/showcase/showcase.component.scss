@@ -1,4 +1,8 @@
-.text-store{
+.container-store{
+    text-align: center;
+}
+
+.container-box{
     max-width: 1002px;
     width: 100%;
     margin: 0 auto;
@@ -10,12 +14,62 @@
     align-items: center;
 }
 
-h3{
+.store-one{
+    display: flex;
+    
+    margin-bottom: 25px;
+}
+
+.h-text-store {
     font-weight: 500;
+    font-family: 'Lato' , sans-serif;
+    font-size: 25px;
+    color: #041E50;
+    margin: 3px;    
+ }
+
+.p-text-store { 
+    font-size: 16px;
+}
+
+.text-store strong{
+    font-weight: 800;
     font-family: 'Lato';
     font-size: 25px;
     color:#041E50;
+    margin-left: 8px;
+}
+
+.item-one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    padding: 20px;
+}
+
+h3{
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    color:#041E50;
     margin: 3px;
+}
+
+h4{
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    color:#041E50;
+    margin: 2px;
+}
+
+p{
+    font-family: 'Lato', sans-serif;
+    font-size: 10px;
+    color:#041E50;
+    text-align: center;
+    margin-bottom: 12px;
 }
 
 strong {
@@ -33,9 +87,19 @@ strong {
 
 #items{
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+}
+
+#products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 30px 30px 0px;
+    width: 22%;
+    justify-content: center;
+    transition: .34s all ease;
 }
 
 .span-bt {
@@ -44,7 +108,8 @@ strong {
     font-family: 'Lato';
     font-size: 13px;
     color:#041E50;
-    padding: 9px 10px 9px 10px;
+    padding: 9px 30px 9px 30px;
     background-color: white;
     cursor: pointer;
 }
+
